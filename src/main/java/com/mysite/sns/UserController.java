@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api")
 @CrossOrigin(origins = {"http://localhost:3000",
-		"https://sns-project-one.vercel.app/"})
+		"https://my-sns-project-one.vercel.app/"})
 @RequiredArgsConstructor
 public class UserController {
 	
